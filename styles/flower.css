@@ -24,8 +24,24 @@
        color: rgba(0, 0, 0, 0.5)
    }
 
+   .btn-primary {
+       margin-top: 30px;
+       width: 100%;
+       height: 50px;
+       background-color: rgba(233, 90, 8, 1);
+       color: white;
+       border: none;
+       cursor: pointer;
+       font-weight: 700;
+   }
+
    .navbar,
    header {
+       max-width: 1440px;
+       margin: 0 auto;
+   }
+
+   main {
        max-width: 1440px;
        margin: 0 auto;
    }
@@ -101,6 +117,7 @@
 
    }
 
+
    .banner-img {
        margin-top: 50px;
        width: 570px;
@@ -128,9 +145,83 @@
 
    }
 
+   /* plants-section detail */
+   main>section {
+       margin-top: 130px;
+   }
+
+   .plants-tittle {
+       font-size: 3.12rem;
+   }
+
+   .plants-content {
+
+       text-align: center;
+       max-width: 880px;
+       margin: 0 auto;
+   }
+
+   .plant-container {
+
+       margin-top: 50px;
+       display: grid;
+       grid-template-columns: repeat(4, 1fr);
+       row-gap: 30px;
+       justify-items: center;
+       column-gap: 20px;
+   }
+
+   .plant-item {
+       width: 100%;
+       height: 100%;
+       text-align: center;
+
+       box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+
+
+   }
+
+
+   .flower-img {
+       width: 345px;
+
+   }
+
+   .flower-img img {
+       width: 100%;
+       height: 100%;
+   }
+
+   .flower-name {
+       margin-top: 30px;
+       color: rgba(17, 17, 17, 1);
+       font-size: 1.37rem;
+       font-weight: 500;
+       margin-bottom: 0px;
+   }
+
+   .flower-price {
+       margin-top: 20px;
+       color: rgba(17, 17, 17, 1);
+       font-size: 1.37rem;
+       font-weight: bold;
+       margin-bottom: 0px;
+   }
+
    /* media querry */
    @media screen and (max-width: 576px) {
+       main>section {
+           margin: 0px;
+       }
 
+       .flower-img {
+           width: 100%;
+       }
+
+       .flower-img img {
+           width: 100%;
+       }
 
        .nav-item {
            display: none;
@@ -142,6 +233,11 @@
 
 
 
+       }
+
+       .plant-container {
+           grid-template-columns: repeat(2, 1fr);
+           width: 100%;
        }
 
        .banner-content {
@@ -182,6 +278,7 @@
            width: 100%;
            height: 100%;
        }
+
 
 
 
