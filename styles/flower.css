@@ -155,7 +155,7 @@
    }
 
    .plants-content {
-
+       
        text-align: center;
        max-width: 880px;
        margin: 0 auto;
@@ -216,7 +216,7 @@
    }
    .plants-lover-container {
 
-       gap: 100px;
+       gap: 90px;
 
    }
 
@@ -227,6 +227,7 @@
    }
 
    .plants-lover-content {
+       padding-top: 50px;
        width: 540px;
 
    }
