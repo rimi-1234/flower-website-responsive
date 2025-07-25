@@ -671,6 +671,9 @@
        .footer-item {
            justify-content: flex-start;
        }
+       .footer-descr{
+        margin-bottom: 0px;
+       }
 
 
 
