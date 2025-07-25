@@ -331,6 +331,9 @@
    }
 
 
+   .text-link {
+       color: white;
+   }
 
    .image-text-3 {
        position: absolute;
@@ -547,8 +550,8 @@
        .image-text-3 {
            font-size: 1.25rem;
            top: 40%;
-           left: 20%;
-           right: 25%;
+           left: 14%;
+           right: 17%;
        }
 
        .image-text {
